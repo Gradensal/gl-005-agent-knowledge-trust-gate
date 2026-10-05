@@ -1,0 +1,83 @@
+[
+  {
+    "scenario_id": "borderline-unvalidated",
+    "knowledge_id": "KB-101",
+    "consequence": "LOW",
+    "decision": "USE",
+    "score": 0.68,
+    "threshold": 0.55,
+    "reason": "Evidence satisfies the required trust policy."
+  },
+  {
+    "scenario_id": "borderline-unvalidated",
+    "knowledge_id": "KB-101",
+    "consequence": "MEDIUM",
+    "decision": "VERIFY",
+    "score": 0.68,
+    "threshold": 0.7,
+    "reason": "Evidence does not meet the required trust threshold for this action consequence."
+  },
+  {
+    "scenario_id": "borderline-unvalidated",
+    "knowledge_id": "KB-101",
+    "consequence": "HIGH",
+    "decision": "VERIFY",
+    "score": 0.68,
+    "threshold": 0.85,
+    "reason": "High-consequence actions require strong provenance and explicit human validation."
+  },
+  {
+    "scenario_id": "strong-validated",
+    "knowledge_id": "KB-102",
+    "consequence": "LOW",
+    "decision": "USE",
+    "score": 0.957,
+    "threshold": 0.55,
+    "reason": "Evidence satisfies the required trust policy."
+  },
+  {
+    "scenario_id": "strong-validated",
+    "knowledge_id": "KB-102",
+    "consequence": "MEDIUM",
+    "decision": "USE",
+    "score": 0.957,
+    "threshold": 0.7,
+    "reason": "Evidence satisfies the required trust policy."
+  },
+  {
+    "scenario_id": "strong-validated",
+    "knowledge_id": "KB-102",
+    "consequence": "HIGH",
+    "decision": "USE",
+    "score": 0.957,
+    "threshold": 0.85,
+    "reason": "Evidence satisfies the required trust policy."
+  },
+  {
+    "scenario_id": "strong-conflicting",
+    "knowledge_id": "KB-103",
+    "consequence": "LOW",
+    "decision": "VERIFY",
+    "score": 0.928,
+    "threshold": 0.55,
+    "reason": "Conflicting evidence requires human or expert validation."
+  },
+  {
+    "scenario_id": "strong-conflicting",
+    "knowledge_id": "KB-103",
+    "consequence": "MEDIUM",
+    "decision": "VERIFY",
+    "score": 0.928,
+    "threshold": 0.7,
+    "reason": "Conflicting evidence requires human or expert validation."
+  },
+  {
+    "scenario_id": "strong-conflicting",
+    "knowledge_id": "KB-103",
+    "consequence": "HIGH",
+    "decision": "VERIFY",
+    "score": 0.928,
+    "threshold": 0.85,
+    "reason": "Conflicting evidence requires human or expert validation."
+  }
+]

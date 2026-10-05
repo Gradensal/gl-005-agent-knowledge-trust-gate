@@ -34,3 +34,20 @@ class TrustResult(BaseModel):
     score: float
     threshold: float
     reason: str
+
+
+class TrustScenario(BaseModel):
+    scenario_id: str = Field(min_length=1)
+    description: str = Field(min_length=1)
+    knowledge: KnowledgeItem
+
+
+class ExperimentRecord(BaseModel):
+    timestamp_utc: str
+    scenario_id: str
+    knowledge_id: str
+    consequence: Consequence
+    decision: TrustDecision
+    score: float
+    threshold: float
+    reason: str

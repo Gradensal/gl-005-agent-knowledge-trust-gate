@@ -1,0 +1,47 @@
+[
+  {
+    "scenario_id": "borderline-unvalidated",
+    "description": "Relevant and reasonably credible knowledge that has not received explicit human validation.",
+    "knowledge": {
+      "knowledge_id": "KB-101",
+      "statement": "Standard customer refunds may be processed automatically.",
+      "source": "Internal operations handbook",
+      "provenance": 0.8,
+      "recency": 0.8,
+      "expertise": 0.8,
+      "corroboration": 0.8,
+      "human_validation": false,
+      "conflict_detected": false
+    }
+  },
+  {
+    "scenario_id": "strong-validated",
+    "description": "Current, authoritative, corroborated knowledge with explicit human validation.",
+    "knowledge": {
+      "knowledge_id": "KB-102",
+      "statement": "Refunds above $500 require manager approval.",
+      "source": "Current finance policy",
+      "provenance": 0.95,
+      "recency": 0.95,
+      "expertise": 0.95,
+      "corroboration": 0.95,
+      "human_validation": true,
+      "conflict_detected": false
+    }
+  },
+  {
+    "scenario_id": "strong-conflicting",
+    "description": "High-quality evidence for which another credible source presents a conflicting rule.",
+    "knowledge": {
+      "knowledge_id": "KB-103",
+      "statement": "Certain enterprise customers may receive automatic refunds.",
+      "source": "Customer operations policy",
+      "provenance": 0.95,
+      "recency": 0.9,
+      "expertise": 0.9,
+      "corroboration": 0.9,
+      "human_validation": true,
+      "conflict_detected": true
+    }
+  }
+]
