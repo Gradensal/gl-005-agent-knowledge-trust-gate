@@ -542,7 +542,7 @@ Core experiment:
 - ✅ controlled 9-evaluation experiment;
 - ✅ architecture documentation;
 - ✅ public CI verification;
-- ⏳ v0.1.0 release.
+- ✅ v0.1.0 release.
 
 ---
 
