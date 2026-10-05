@@ -1,6 +1,6 @@
 # GL-005 — Agent Knowledge Trust Gate
 
-[![CI](https://github.com/Gradensal/gl-005-agent-knowledge-trust-gate/actions/workflows/ci.yml/badge.svg)](https://github.com/Gradensal/gl-005-agent-knowledge-trust-gate/actions/workflows/ci.yml)
+[![CI](https://github.com/Gradensal/gl-005-agent-knowledge-trust-gate/actions/workflows/ci.yml/badge.svg?branch=main&event=push)](https://github.com/Gradensal/gl-005-agent-knowledge-trust-gate/actions/workflows/ci.yml?query=branch%3Amain)
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
 ![Tests](https://img.shields.io/badge/tests-9%20passing-brightgreen)
 ![Status](https://img.shields.io/badge/status-research%20prototype-blueviolet)
@@ -541,7 +541,7 @@ Core experiment:
 - ✅ 9 automated tests;
 - ✅ controlled 9-evaluation experiment;
 - ✅ architecture documentation;
-- ⏳ public CI verification;
+- ✅ public CI verification;
 - ⏳ v0.1.0 release.
 
 ---
